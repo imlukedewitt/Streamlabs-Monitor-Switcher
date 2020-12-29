@@ -15,7 +15,7 @@ return
 CheckForChanges:
 MouseGetPos, xx, yy                                                ;;; assign Mouse coordinates to 'xx' and 'yy'
 
-if(WinActive("ahk_class Notepad2"))                                ;;; get current states
+if(WinActive("ahk_class Cubase"))                                  ;;; get current states
     currentFocus := 1
 else
     currentFocus := 0
